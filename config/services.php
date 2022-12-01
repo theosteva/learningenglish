@@ -32,9 +32,9 @@ return [
 
     // socialite configurations
     'google' => [
-        'client_id' => env('751990995366-89ijdgt9c6sqthmvsarb95eqkb0eh7rm.apps.googleusercontent.com'),
-        'client_secret' => env('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T'),
-        'redirect' => env('https://localhost:8000/auth/google/callback'),
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        'redirect' => env('GOOGLE_CLIENT_REDIRECT'),
     ],
 
 ];
