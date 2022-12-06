@@ -12,7 +12,7 @@ class CreateTableCamps extends Migration
      * @return void
      */
     public function up()
-    {
+    { 
         Schema::create('camps', function (Blueprint $table) {
             $table->id();
             $table->string('title', 100);

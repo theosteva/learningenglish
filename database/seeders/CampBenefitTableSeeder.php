@@ -37,7 +37,7 @@ class CampBenefitTableSeeder extends Seeder
             ],
             [
                 'camp_id' => 1,
-                'name' => 'Future Job Opportinity'
+                'name' => 'Future Job Opportunity'
             ],
             [
                 'camp_id' => 1,

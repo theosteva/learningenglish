@@ -18,7 +18,7 @@ class CampTableSeeder extends Seeder
             [
                 'title' => 'Gila Belajar',
                 'slug' => 'gila-belajar',
-                'price' => 280,
+                'price' => 200,
                 'created_at' => date('Y-m-d H:i:s', time()),
                 'updated_at' => date('Y-m-d H:i:s', time()),
             ],
@@ -28,11 +28,11 @@ class CampTableSeeder extends Seeder
                 'price' => 140,
                 'created_at' => date('Y-m-d H:i:s', time()),
                 'updated_at' => date('Y-m-d H:i:s', time()),
-            ],
+            ]
         ];
 
         // 1st method
-        // foreach ($camps as $key => $camp) {
+        // foreach($camps as $camp) {
         //     Camp::create($camp);
         // }
 
