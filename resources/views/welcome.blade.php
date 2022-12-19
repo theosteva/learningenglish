@@ -1,42 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+
     <section class="banner">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-11 col-12">
-                    <div class="row">
-                        <div class="col-lg-6 col-12 copywriting">
-                            <p class="story">
-                                LEARN FROM EXPERT
-                            </p>
-                            <h1 class="header">
-                                Start Your <span class="text-purple">Developer <br> Journey</span> Today
-                            </h1>
-                            <p class="support">
-                                Our bootcamp is helping junior developers who <br> are really passionate in the programming.
-                            </p>
-                            <p class="cta">
-                                <a href="#" class="btn btn-master btn-primary">
-                                    Get Started
-                                </a>
-                            </p>
-                        </div>
-                        <div class="col-lg-6 col-12 text-center">
-                            <a href="#">
-                                <img src="{{asset('images/banner.png')}}" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row brands">
-                <div class="col-lg-12 col-12 text-center">
-                    <img src="{{asset('images/brands.png')}}" alt="">
-                </div>
-            </div>
+
+    <section class="banner">
+        <img src="{{asset('images/banner.jpg')}}"  width="100%">
         </div>
     </section>
+
 
 
     <section class="benefits">
@@ -44,44 +16,48 @@
             <div class="row text-center pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
-                        OUR SUPER BENEFITS
+                        BENEFITS YOU'LL GET IN OUR COURSE
                     </p>
                     <h2 class="primary-header">
                         Learn Faster & Better
                     </h2>
+                    <p class="support">
+                    Explore our site to improve your English with our courses, learning-videos and quiz.<br> With our varied selection of learning materials, you can practise your English faster and better.
+                        </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-12">
-                    <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe.png')}}" class="icon" alt="">
+                <div class="item-benefit">
+                        <img src="{{asset('images/ic_globe-2.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            Diversity
+                            <b>1-1 Class & Mentoring</b>
                         </h3>
                         <p class="support">
-                            Learn from anyone around the <br> world and get a new skills
+                            We will ensure that you will get what you really do need
                         </p>
                     </div>
+                    
                 </div>
                 <div class="col-lg-3 col-12">
                     <div class="item-benefit">
                         <img src="{{asset('images/ic_globe-1.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            A.I Guideline
+                            <b>A.I Guideline</b>
                         </h3>
                         <p class="support">
-                            Lara will help you to choose <br> which path that suitable for you
+                            Lara will help you to choose which path that suitable for you
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12">
-                    <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe-2.png')}}" class="icon" alt="">
+                <div class="item-benefit">
+                        <img src="{{asset('images/ic_globe.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            1-1 Mentoring
+                            <b>Live Online Classes</b>
                         </h3>
                         <p class="support">
-                            We will ensure that you will get <br> what you really do need
+                            Interactive group classes<br> with expert teachers.
                         </p>
                     </div>
                 </div>
@@ -92,7 +68,7 @@
                             Future Job
                         </h3>
                         <p class="support">
-                            Get your dream job in your dream <br> company together with us
+                            Get your dream job in your dream company together<br> with us
                         </p>
                     </div>
                 </div>

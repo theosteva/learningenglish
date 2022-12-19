@@ -2,6 +2,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.kekanan {
+ padding-left: 800px;
+ 
+}
+
 .pl-150 {
   padding-left: 150px;
 }
@@ -20,6 +25,7 @@ body {
   font-size: 22px;
   color: #211B3D;
   font-weight: 600;
+
 }
 
 .subheader {
@@ -137,6 +143,7 @@ body {
   color: #CBB0FF;
   line-height: 30px;
   margin-top: 30px;
+  
 }
 
 .pricing .table-pricing {
@@ -212,18 +219,18 @@ body {
 }
 
 .btn-primary {
-  background: #7839F3;
+  background: #e0ab19;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background: #31B380;
+  background: #5930eb;
 }
 
 .story {
   font-weight: 600;
   font-size: 16px;
-  color: #31B380;
+  color: #2e2c2c;
 }
 
 .primary-header {
@@ -234,6 +241,7 @@ body {
 
 .benefits {
   margin-bottom: 100px;
+  background-color: #f0bc4c;
 }
 
 .benefits .item-benefit .icon {
@@ -246,17 +254,19 @@ body {
   font-size: 20px;
   color: #211B3D;
   font-weight: 500;
+
+
 }
 
 .benefits .item-benefit .support {
   font-size: 16px;
   font-weight: 400;
-  color: #5B5575;
+  color: #222020;
   line-height: 30px;
 }
 
 .pb-70 {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .header-wrap .primary-header {
@@ -265,10 +275,18 @@ body {
 
 .header-wrap .story {
   margin-bottom: 0;
+    margin-top: 55px;
 }
 
-.text-purple {
-  color: #7839F3;
+.text-blue {
+  color: #3235f3;
+}
+.text-coklat {
+  color: #bd3e1e;
+}
+
+.text-green {
+  color: #10e060;
 }
 
 .text-white {
@@ -281,11 +299,12 @@ body {
 }
 
 .banner {
-  padding: 80px 0 80px 0;
+  padding-top: 50px 0 50px 0;
+  color: #7839F3;
 }
 
 .banner .copywriting {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .banner .header {
@@ -311,7 +330,7 @@ body {
 }
 
 .banner .brands img {
-  height: 30px;
+  height: 50px;
 }
 
 .basic-form input {
@@ -344,10 +363,10 @@ body {
 }
 
 .navbar {
-  box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
-  -webkit-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
-  -moz-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
-  padding: 24px 0 24px 0;
+  box-shadow: 1px 8px 61px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 8px 61px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 8px 61px 0px rgba(0, 0, 0, 0.08);
+  padding: 1px 0 1px 0;
 }
 
 .navbar .user-logged a {
@@ -373,6 +392,6 @@ body {
 }
 
 .navbar .navbar-brand img {
-  height: 42px;
+  height: 100px;
 }
 /*# sourceMappingURL=main.css.map */
