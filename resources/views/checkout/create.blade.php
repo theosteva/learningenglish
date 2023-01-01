@@ -5,11 +5,9 @@
         <div class="container">
             <div class="row text-center pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
-                    <p class="story">
-                        YOUR FUTURE CAREER
-                    </p>
+
                     <h2 class="primary-header">
-                        Start Invest Today
+                        Courses in LearnEnglish.com
                     </h2>
                 </div>
             </div>
@@ -18,12 +16,12 @@
                     <div class="row">
                         <div class="col-lg-5 col-12">
                             <div class="item-bootcamp">
-                                <img src="{{asset('images/item_bootcamp.png')}}" alt="" class="cover">
+                                <img src="{{asset('images/barumulai.png')}}" alt="" class="cover">
                                 <h1 class="package text-uppercase">
-                                    {{$camp->title}}
+                                Learn Faster and Better
                                 </h1>
                                 <p class="description">
-                                    Bootcamp ini akan mengajak Anda untuk belajar penuh mulai dari pengenalan dasar sampai membangun sebuah projek asli
+                                Start practising your grammar from the very first basic lessons.
                                 </p>
                             </div>
                         </div>
@@ -66,7 +64,7 @@
                                         <p class="text-danger">{{$errors->first('address')}}</p>
                                     @endif
                                 </div>
-                                <button type="submit" class="w-100 btn btn-primary">Pay Now</button>
+                                <button type="submit" class="w-100 btn btn-primary">Pay Now </button>
                                 <p class="text-center subheader mt-4">
                                     <img src="{{asset('images/ic_secure.svg')}}" alt=""> Your payment is secure and encrypted.
                                 </p>

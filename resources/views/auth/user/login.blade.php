@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,29 +14,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <title>Laracamp by BuildWith Angga</title>
+    <title>English Course by English Online</title>
 </head>
 
 <body>
 
     <section class="login-user">
         <div class="left">
-            <img src="{{asset('images/ill_login_new.png')}}" alt="">
+            <img src="{{asset('images/kurva-removebg-preview.png')}}" alt="">
         </div>
         <div class="right">
-            <img src="{{asset('images/logo.png')}}" class="logo" alt="">
+            <img src="{{asset('images/logo_web.png')}}" class="logo" alt="">
             <h1 class="header-third">
-                Start Today
+                Start Now!
             </h1>
             <p class="subheader">
-                Because tomorrow become never
+                Because today is better day
             </p>
             <p>
                 <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
                     <img src="{{asset('images/ic_google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
-            <img src="{{asset('images/people.png')}}" class="people" alt="">
+            <img src="{{asset('images/pp-removebg-preview.png')}}" class="people" alt="">
         </div>
     </section>
 
