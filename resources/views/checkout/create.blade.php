@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-lg-1 col-12"></div>
                         <div class="col-lg-6 col-12">
-                            <form action="{{route('checkout.store', $camp->id)}}" class="basic-form" method="POST">
+                            <form action="  http://localhost:8000/paymentsuccess" class="basic-form" method="GET">
                                 @csrf
                                 <div class="mb-4">
                                     <label class="form-label">Full Name</label>
